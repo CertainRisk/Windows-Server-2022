@@ -9,12 +9,14 @@ Changing the Computer Name to something less arbitrary, and more fun.
 
 
 - Checking out the IP information and disabling IPv6 for now. 
-- Going to change the DNS server to the loopback address of 127.0.0.1.
-
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/c1d04da7-6add-4795-9df2-8305b5726839)
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/ef5429b9-1417-4edd-85e3-fc6c896a45c1)
+
+Enabling Remote Desktop on the Server:
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/027ce084-09a9-47a1-9d96-fc83ce37d752)
 
 Rebooting so that the name change to the computer takes effect.
+
 
 Going into Manage > Add Roles and Features, I will be sticking with the Role-based or feature-based installation. 
 
