@@ -59,7 +59,10 @@ Success!
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/5f9cf47b-cbf6-4118-8aff-66e675426760)
 
 
-
+## Installing an additonal domain controller for fault tolerance and redundancy. 
+- Promoting the DC2 to a domain controller.
+  
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/f172e5b6-1462-4fad-907e-4ea4f0460f1c)
 
 
 
