@@ -59,7 +59,7 @@ Going into Manage > Add Roles and Features, I will be sticking with the Role-bas
 
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/9e5ec65c-1ed0-40c6-b02b-e695c9b1fde3)
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/bbbb90e6-3612-4460-b9f4-9d7d989fe604)
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/17a1748e-06ba-467f-93a1-b1636ae9d341)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/42368edf-6480-41d5-8fdb-c962dcd8c554)
 
 # Installing Active Directory:
 - Active Directory Domain Services only for now.
@@ -71,7 +71,7 @@ Going into Manage > Add Roles and Features, I will be sticking with the Role-bas
 After it finished installing, I am going to promote this server to a Domain controller. Then I will setup a whole new forest. 
 
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/5178b7bb-474d-4393-b996-961edb734a5b)
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/95e645cc-664f-4bce-acaa-dc2285cb4dd5)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/b542e677-3c20-4c61-8bc6-60afd9fd3a5d)
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/5d924e8b-f7e7-4c1a-a356-3bf625860db5)
 
 DNS is not yet installed so I will be skipping this option till AD can handle that. Then I will continue on till the installation is finished!
