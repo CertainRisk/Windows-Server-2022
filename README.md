@@ -11,6 +11,43 @@ Changing the Computer Name to something less arbitrary, and more fun.
 - Checking out the IP information and disabling IPv6 for now. 
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/c1d04da7-6add-4795-9df2-8305b5726839)
 
+# Simple Volume Creation
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/ccda7a8c-a2a3-44c7-b72c-cf7e72fdc067)
+
+Right clicking the unallocated space to enter the Simple Volume Wizard. I will make this smaller than the default since I am messing around and learning!
+- I will stick the the NTFS file system as that's the one I am most familiar with. 
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/24a33789-2d8d-4dcd-972e-5f8277c5dd26)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/524a9aed-faec-4c59-807d-443408a051f7)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/b686016a-0ea5-407c-a5db-939578c0d1f6)
+
+## Extending and Shrinking Volumes 
+
+I'm going to add another 50,000 in order to extend the volume.
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/790fed03-7871-4175-a8ec-71e51f62ad90)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/4e7cc38c-4b78-464b-950b-91b0e36bd999)
+
+Time to shrink it! I'm going to shrink it to 80,000 MB.
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/514044ef-bcc2-480a-870b-bef6b79c6acf)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/4863ab92-9289-4c73-b8fa-cb645947198d)
+
+## Converting Disks - From basic to dynamic 
+
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/6e9a5f75-fcd2-4afd-bd86-584cc74ac0d3)
+
+- **Spanned disks:** Take space from more than one physical disk to create the appearance of a single, larger volume for the user.
+
+- **Striped volumes:** Store data in stripes across two or more disks with the aim of providing faster access to your data compared to simple or spanned volumes.
+  - This implies designating an equal amount of space on two or more volumes because the data will be striped across all of the disks. This method ensures better read performance.
+
+- **Mirrored volumes:** Duplicate the data on two disks, dividing it equally between each disk. For example, if it indicates the use of 40,000 MB of storage, only 20,000 MBs can be utilized due to the setup of mirrored volumes for fault tolerance.
+
+- **RAID-5 Volumes:** Store data in stripes across three or more disks. The greater the number of disks in RAID-5, the greater the performance benefits. In an example of three disks, all would be 20,000 MB each but one would be a recovery block. Each stripe will put the recovery block on a different of the three disks. This allows for read performance benefits and you can have a disk space utilization benefit better than mirroring. 
+
+
 Enabling Remote Desktop on the Server:
 
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/027ce084-09a9-47a1-9d96-fc83ce37d752)
