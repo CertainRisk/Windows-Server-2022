@@ -89,11 +89,12 @@ Success!
 ## Tools > DNS > DNS Manager
 - Looking through to see that everything was installed correctly and it was. 
 
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/fb63a65a-e3bb-4025-861f-6325a067c29f)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/4d2dac85-0c65-4a5a-abe5-bb1c6d05882d)
+
 
 ## Tools > Active Directory Users and Computers
 
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/5f9cf47b-cbf6-4118-8aff-66e675426760)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/161dedc8-1ab5-471e-aee2-5836e318c0ee)
 
 
 ## Installing an additonal domain controller for fault tolerance and redundancy. 
