@@ -59,7 +59,8 @@ Going into Manage > Add Roles and Features, I will be sticking with the Role-bas
 
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/9e5ec65c-1ed0-40c6-b02b-e695c9b1fde3)
 ![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/bbbb90e6-3612-4460-b9f4-9d7d989fe604)
-![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/42368edf-6480-41d5-8fdb-c962dcd8c554)
+![image](https://github.com/CertainRisk/Windows-Server-2022/assets/141761181/33a1ce30-b487-42c2-8a4d-23f09bb450e5)
+
 
 # Installing Active Directory:
 - Active Directory Domain Services only for now.
